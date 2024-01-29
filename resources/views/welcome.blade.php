@@ -12,12 +12,21 @@
 <body>
     <div class="container py-5">
         <header>
-            <div class="d-flex justify-content-center">
-                <h1>CONTROLLER LARAVEL</h1>
+            <div class="justify-content-center">
+                <h1 class="d-flex justify-content-center">CONTROLLER LARAVEL</h1>
+               
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">titolo title</h5>
+                      <p class="card-text"> <p>sono una descrizone di filmz.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+
             </div>
         </header>
 
-        <img src="{{ Vite::asset('resources/img/duck.jpg') }}" alt="">
     </div>
 
 </body>
